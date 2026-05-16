@@ -1,11 +1,11 @@
 # Hierarchical Matrices for Transformers
 
-This repository contains the code to reproduce the experiments from our paper:
+This repository contains the code to reproduce the results from our work:
 
 > **Hierarchical Matrix Approximations in Transformers: From Vision to Language Models**
 > Kh Sudhir, Ch Lithin Sai Kumar, Vaishnavi Gujjula — IIIT Bangalore
 
-The full report is available as [`PE_Hmat.pdf`](./PE_Hmat.pdf).
+The full write-up is available as [`PE_Hmat.pdf`](./PE_Hmat.pdf).
 
 ---
 
@@ -51,21 +51,6 @@ H-MAT consistently closes to within 1–2% of LoRA at matched parameter counts a
 ## Base Model
 
 All LLM experiments use **TinyLlama-1.1B** (`TinyLlama-1.1B-intermediate-step-1431k-3T`) as the base model, available on HuggingFace.
-
----
-
-## Citation
-
-If you use this code, please cite our report:
-
-```
-@article{sudhir2025hmat,
-  title   = {Hierarchical Matrix Approximations in Transformers: From Vision to Language Models},
-  author  = {Sudhir, Kh and Lithin Sai Kumar, Ch and Gujjula, Vaishnavi},
-  year    = {2025},
-  institution = {IIIT Bangalore}
-}
-```
 
 ---
 
